@@ -1,0 +1,9 @@
+{
+  "name": "renderbit",
+  "version": "1.0.0",
+  "description": "renderbit is like Google's rendertron, but it will dither the screenshot using Atkinson's dither algorithm so that they can be displayed on an e-ink display or printed via thermal printer.",
+  "main": "index.js",
+  "repository": "git@github.com:mathiasschopmans/renderbit.git",
+  "author": "Mathias Schopmans <mathias@schopmans.me>",
+  "license": "MIT"
+}
