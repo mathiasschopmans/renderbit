@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+'use strict'
+
+process.title = 'renderbit'
+
+require('@babel/register')
+require('../cli.js')

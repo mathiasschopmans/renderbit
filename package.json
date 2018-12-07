@@ -5,5 +5,31 @@
   "main": "index.js",
   "repository": "git@github.com:mathiasschopmans/renderbit.git",
   "author": "Mathias Schopmans <mathias@schopmans.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": "bin/renderbit",
+  "scripts": {
+    "render": "bin/renderbit"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/register": "^7.0.0",
+    "commander": "^2.19.0",
+    "puppeteer-core": "^1.11.0"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": true
+          }
+        }
+      ]
+    ]
+  }
 }
